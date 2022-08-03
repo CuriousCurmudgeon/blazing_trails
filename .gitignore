@@ -352,3 +352,6 @@ MigrationBackup/
 # Generated CSS
 BlazingTrails/BlazingTrails.Client/Features/**/*.css
 BlazingTrails/BlazingTrails.Client/Features/**/*.css.map
+
+# SQLite db
+blazingtrails.db
