@@ -355,3 +355,5 @@ BlazingTrails/BlazingTrails.Client/Features/**/*.css.map
 
 # SQLite db
 blazingtrails.db
+blazingtrails.db-shm
+blazingtrails.db-wal
