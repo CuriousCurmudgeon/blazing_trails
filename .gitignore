@@ -357,3 +357,6 @@ BlazingTrails/BlazingTrails.Client/Features/**/*.css.map
 blazingtrails.db
 blazingtrails.db-shm
 blazingtrails.db-wal
+
+# Uploaded Images
+BlazingTrails/BlazingTrails.Api/Images/
