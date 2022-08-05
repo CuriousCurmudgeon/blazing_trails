@@ -5,7 +5,8 @@
         <input class="form-control @CssClass"
                type="number"
                min="0"
-               @onchange="SetHourValue"/>
+               @onchange="SetHourValue"
+               value="@_hours"/>
         <label>Hours</label>
     </div>
     <div>
@@ -13,7 +14,8 @@
                type="number"
                min="0"
                max="59"
-               @onchange="SetMinuteValue"/>
+               @onchange="SetMinuteValue"
+               value="@_minutes"/>
         <label>Minutes</label>
     </div>
 </div>
