@@ -43,7 +43,6 @@
   </Target>
 
   <ItemGroup>
-    <Folder Include="Features\Shared\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
