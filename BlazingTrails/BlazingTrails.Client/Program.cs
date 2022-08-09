@@ -1,5 +1,6 @@
 using BlazingTrails.Client;
 using BlazingTrails.Client.Features.Auth;
+using BlazingTrails.Client.State;
 using MediatR;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
@@ -22,5 +23,6 @@ builder.Services.AddOidcAuthentication(options =>
     options.ProviderOptions.ResponseType = "code";
     options.ProviderOptions.AdditionalProviderParameters.Add("audience", builder.Configuration["Auth0:Audience"]);
 }).AddAccountClaimsPrincipalFactory<CustomUserFactory<RemoteUserAccount>>();
+builder.Services.AddScoped<AppState>();
 
 await builder.Build().RunAsync();
