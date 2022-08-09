@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Blazored.FluentValidation" Version="2.1.0-preview.2" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
     <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.7" />
@@ -42,6 +43,7 @@
   </Target>
 
   <ItemGroup>
+    <Folder Include="Features\Shared\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
