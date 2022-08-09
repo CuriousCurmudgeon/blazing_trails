@@ -33,10 +33,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Client\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <ProjectReference Include="..\BlazingTrails.Client\BlazingTrails.Client.csproj" />
 	  <ProjectReference Include="..\BlazingTrails.ComponentLibrary\BlazingTrails.ComponentLibrary.csproj" />
 	</ItemGroup>
